@@ -1,2 +1,59 @@
 venv
 .env
+
+# Byte-code files
+*.pyc
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Test and coverage files
+.coverage
+.tox/
+htmlcov/
+
+# Python build artifacts
+build/
+dist/
+sdist/
+develop-eggs/
+parts/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# PyInstaller
+# You might want to ignore these if you are building executables
+# using PyInstaller and don't want to commit the build artifacts.
+# For example:
+# build/
+# dist/
+# *.spec
+
+# Environment variables (sensitive information)
+.env
